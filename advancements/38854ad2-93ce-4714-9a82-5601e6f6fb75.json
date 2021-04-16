@@ -572,6 +572,12 @@
     },
     "done": true
   },
+  "minecraft:end/kill_dragon": {
+    "criteria": {
+      "killed_dragon": "2021-04-15 20:30:28 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/white_wool_from_string": {
     "criteria": {
       "has_string": "2019-11-24 10:29:58 -0500"
@@ -597,6 +603,7 @@
       "minecraft:phantom": "2021-04-14 20:59:47 -0400",
       "minecraft:zombified_piglin": "2021-04-11 15:58:32 -0400",
       "minecraft:wither_skeleton": "2021-04-09 21:52:59 -0400",
+      "minecraft:ender_dragon": "2021-04-15 20:30:28 -0400",
       "minecraft:cave_spider": "2019-11-28 08:21:40 -0500",
       "minecraft:piglin": "2021-04-11 16:07:47 -0400",
       "minecraft:enderman": "2019-11-24 11:41:41 -0500",
@@ -838,6 +845,12 @@
   "minecraft:recipes/brewing/blaze_powder": {
     "criteria": {
       "has_blaze_rod": "2021-04-09 21:52:07 -0400"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2021-04-15 20:24:51 -0400"
     },
     "done": true
   },
@@ -1735,6 +1748,7 @@
       "potato": "2019-11-28 17:55:35 -0500",
       "cooked_cod": "2019-11-25 18:31:26 -0500",
       "bread": "2019-11-24 08:57:55 -0500",
+      "golden_apple": "2021-04-15 20:29:31 -0400",
       "cooked_salmon": "2019-11-24 11:30:24 -0500"
     },
     "done": false
@@ -2890,6 +2904,12 @@
   "minecraft:recipes/decorations/brown_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2019-11-23 20:05:34 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2021-04-15 20:24:51 -0400"
     },
     "done": true
   },
