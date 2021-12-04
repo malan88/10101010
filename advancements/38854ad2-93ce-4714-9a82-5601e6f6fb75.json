@@ -1278,7 +1278,10 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:snowy_slopes": "2021-12-03 19:01:20 -0500",
       "minecraft:old_growth_pine_taiga": "2021-11-27 12:35:12 -0500",
+      "minecraft:taiga": "2021-12-03 19:00:33 -0500",
+      "minecraft:sunflower_plains": "2021-12-03 19:01:16 -0500",
       "minecraft:windswept_hills": "2021-04-15 18:23:13 -0400",
       "minecraft:savanna_plateau": "2021-11-27 12:15:57 -0500",
       "minecraft:beach": "2019-11-23 16:27:05 -0500",
@@ -1288,11 +1291,15 @@
       "minecraft:grove": "2021-11-27 12:35:17 -0500",
       "minecraft:cold_ocean": "2019-11-24 19:00:51 -0500",
       "minecraft:forest": "2019-11-27 17:56:03 -0500",
+      "minecraft:frozen_ocean": "2021-12-03 17:02:36 -0500",
       "minecraft:desert": "2019-11-26 17:18:32 -0500",
       "minecraft:deep_frozen_ocean": "2019-11-24 19:07:06 -0500",
       "minecraft:windswept_forest": "2021-04-15 18:20:38 -0400",
       "minecraft:old_growth_spruce_taiga": "2021-11-27 12:34:44 -0500",
       "minecraft:windswept_savanna": "2021-11-27 12:34:16 -0500",
+      "minecraft:flower_forest": "2021-12-03 19:01:12 -0500",
+      "minecraft:frozen_peaks": "2021-12-03 19:01:22 -0500",
+      "minecraft:meadow": "2021-12-03 19:00:53 -0500",
       "minecraft:savanna": "2019-11-27 17:48:01 -0500",
       "minecraft:plains": "2019-11-23 15:56:13 -0500"
     },
@@ -1675,6 +1682,12 @@
   "minecraft:recipes/redstone/redstone": {
     "criteria": {
       "has_redstone_block": "2021-04-09 20:05:38 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/candle": {
+    "criteria": {
+      "has_string": "2021-12-03 19:21:24 -0500"
     },
     "done": true
   },
@@ -2540,6 +2553,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2021-12-03 19:03:10 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/oak_boat": {
     "criteria": {
       "in_water": "2019-11-23 20:02:27 -0500"
@@ -3026,6 +3045,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/snow_block": {
+    "criteria": {
+      "has_snowball": "2021-12-03 19:03:10 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_ingot_from_nuggets": {
     "criteria": {
       "has_iron_nugget": "2021-04-14 20:35:51 -0400"
@@ -3101,6 +3126,12 @@
   "minecraft:recipes/building_blocks/purpur_pillar": {
     "criteria": {
       "has_purpur_block": "2021-04-16 17:48:29 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_item_frame": "2021-12-03 19:19:26 -0500"
     },
     "done": true
   },
@@ -3260,5 +3291,5 @@
     },
     "done": true
   },
-  "DataVersion": 2858
+  "DataVersion": 2860
 }
